@@ -16,7 +16,6 @@ public class PirmasFailas {
         int c = C.nextInt();
 
         if (a==b && b==c) {
-            System.out.println("Lygiakrastis");
             double plotas = ((a*a)*Math.sqrt(3))/4;
             System.out.println("Lygiakrascio trikampio plotas = " + plotas);
 
@@ -37,7 +36,6 @@ public class PirmasFailas {
         }else {
             double p = (a + b + c)/2; //p == pusperimetris
             double plotas = Math.sqrt(p*((p-a)*(p-b)*(p-c)));
-            System.out.println("Ivairiakrastis");
             System.out.println("Ivairiakrascio trikampio plotas = " + plotas);
         }
     }
